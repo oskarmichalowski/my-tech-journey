@@ -1,5 +1,8 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
 
+const toggleAzure = document.querySelector('.azure');
+
+
+toggleAzure.addEventListener('click', ()=>{
+    console.log('klik')
+})
